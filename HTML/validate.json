@@ -1,0 +1,19 @@
+{
+    "method": "POST",
+    "url": "https://api.tppvalidation.com/validate",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        {
+            "name": "Accept",
+            "value": "*/*"
+        },
+        {
+            "name": "Content-Type",
+            "value": "text/plain"
+        }
+    ],
+    "postData": {
+        "mimeType": "text/plain",
+        "text": "-----BEGIN CERTIFICATE-----MIIKoTCCCImgAwIBAgIKIzrwYDx6LtUwlTANBgkqhkiG9w0BAQsFADBWMQswCQYDVQQGEwJSTzEUMBIGA1UEChMLQ0VSVFNJR04gU0ExGDAWBgNVBAMTD2NlcnRTSUdOIFdlYiBDQTEXMBUGA1UEYRMOVkFUUk8tMTgyODgyNTAwHhcNMjIwOTMwMDY0OTI3WhcNMjMwOTMwMDY0OTI3WjCBzDETMBEGCysGAQQBgjc8AgEDEwJSTzEWMBQGA1UEBRMNSj"
+    }
+}
